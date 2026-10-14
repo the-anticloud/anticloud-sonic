@@ -1,0 +1,452 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:223ce556-aa5a-57d8-82d3-e94720210735",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T17:05:07Z",
+    "component": {
+      "type": "application",
+      "name": "SONIC",
+      "version": "f7a75d25eb07",
+      "bom-ref": "pkg:generic/anticloud/SONIC@f7a75d25eb07",
+      "purl": "pkg:generic/anticloud/SONIC@f7a75d25eb07",
+      "licenses": [
+        {
+          "license": {
+            "id": "AGPL-3.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "f7a75d25eb07d0e16456cb0a4098496dd8674c0e"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/valeriansaliou/sonic"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "resolver",
+      "version": "3",
+      "purl": "pkg:cargo/resolver@3",
+      "bom-ref": "cargo/resolver@3"
+    },
+    {
+      "type": "library",
+      "name": "license",
+      "version": "MPL-2.0",
+      "purl": "pkg:cargo/license@MPL-2.0",
+      "bom-ref": "cargo/license@MPL-2.0"
+    },
+    {
+      "type": "library",
+      "name": "edition",
+      "version": "2024",
+      "purl": "pkg:cargo/edition@2024",
+      "bom-ref": "cargo/edition@2024"
+    },
+    {
+      "type": "library",
+      "name": "rust-version",
+      "version": "1.92.0",
+      "purl": "pkg:cargo/rust-version@1.92.0",
+      "bom-ref": "cargo/rust-version@1.92.0"
+    },
+    {
+      "type": "library",
+      "name": "homepage",
+      "version": "https://github.com/valeriansaliou/sonic",
+      "purl": "pkg:cargo/homepage@https://github.com/valeriansaliou/sonic",
+      "bom-ref": "cargo/homepage@https://github.com/valeriansaliou/sonic"
+    },
+    {
+      "type": "library",
+      "name": "repository",
+      "version": "https://github.com/valeriansaliou/sonic.git",
+      "purl": "pkg:cargo/repository@https://github.com/valeriansaliou/sonic.git",
+      "bom-ref": "cargo/repository@https://github.com/valeriansaliou/sonic.git"
+    },
+    {
+      "type": "library",
+      "name": "panic",
+      "version": "unwind",
+      "purl": "pkg:cargo/panic@unwind",
+      "bom-ref": "cargo/panic@unwind"
+    },
+    {
+      "type": "library",
+      "name": "inherits",
+      "version": "release",
+      "purl": "pkg:cargo/inherits@release",
+      "bom-ref": "cargo/inherits@release"
+    },
+    {
+      "type": "library",
+      "name": "debug",
+      "version": "line-tables-only",
+      "purl": "pkg:cargo/debug@line-tables-only",
+      "bom-ref": "cargo/debug@line-tables-only"
+    },
+    {
+      "type": "library",
+      "name": "split-debuginfo",
+      "version": "unpacked",
+      "purl": "pkg:cargo/split-debuginfo@unpacked",
+      "bom-ref": "cargo/split-debuginfo@unpacked"
+    },
+    {
+      "type": "library",
+      "name": "lto",
+      "version": "thin",
+      "purl": "pkg:cargo/lto@thin",
+      "bom-ref": "cargo/lto@thin"
+    },
+    {
+      "type": "library",
+      "name": "name",
+      "version": "sonic_client",
+      "purl": "pkg:cargo/name@sonic_client",
+      "bom-ref": "cargo/name@sonic_client"
+    },
+    {
+      "type": "library",
+      "name": "version",
+      "version": "0.6.0",
+      "purl": "pkg:cargo/version@0.6.0",
+      "bom-ref": "cargo/version@0.6.0"
+    },
+    {
+      "type": "library",
+      "name": "description",
+      "version": "Official client for Sonic, a fast, lightweight and schema-less search backend.",
+      "purl": "pkg:cargo/description@Official client for Sonic, a fast, lightweight and schema-less search backend.",
+      "bom-ref": "cargo/description@Official client for Sonic, a fast, lightweight and schema-less search backend."
+    },
+    {
+      "type": "library",
+      "name": "readme",
+      "version": "README.md",
+      "purl": "pkg:cargo/readme@README.md",
+      "bom-ref": "cargo/readme@README.md"
+    },
+    {
+      "type": "library",
+      "name": "path",
+      "version": "src/lib.rs",
+      "purl": "pkg:cargo/path@src/lib.rs",
+      "bom-ref": "cargo/path@src/lib.rs"
+    },
+    {
+      "type": "library",
+      "name": "bytes",
+      "version": "1",
+      "purl": "pkg:cargo/bytes@1",
+      "bom-ref": "cargo/bytes@1"
+    },
+    {
+      "type": "library",
+      "name": "crossbeam-channel",
+      "version": "0.5",
+      "purl": "pkg:cargo/crossbeam-channel@0.5",
+      "bom-ref": "cargo/crossbeam-channel@0.5"
+    },
+    {
+      "type": "library",
+      "name": "mio",
+      "version": "1",
+      "purl": "pkg:cargo/mio@1",
+      "bom-ref": "cargo/mio@1"
+    },
+    {
+      "type": "library",
+      "name": "oneshot",
+      "version": "0.2",
+      "purl": "pkg:cargo/oneshot@0.2",
+      "bom-ref": "cargo/oneshot@0.2"
+    },
+    {
+      "type": "library",
+      "name": "slab",
+      "version": "0.4",
+      "purl": "pkg:cargo/slab@0.4",
+      "bom-ref": "cargo/slab@0.4"
+    },
+    {
+      "type": "library",
+      "name": "log",
+      "version": "0.4",
+      "purl": "pkg:cargo/log@0.4",
+      "bom-ref": "cargo/log@0.4"
+    },
+    {
+      "type": "library",
+      "name": "tracing",
+      "version": "0.1",
+      "purl": "pkg:cargo/tracing@0.1",
+      "bom-ref": "cargo/tracing@0.1"
+    },
+    {
+      "type": "library",
+      "name": "tokio",
+      "version": "=1.53.1",
+      "purl": "pkg:cargo/tokio@=1.53.1",
+      "bom-ref": "cargo/tokio@=1.53.1"
+    },
+    {
+      "type": "library",
+      "name": "unicode-normalization",
+      "version": "0.1",
+      "purl": "pkg:cargo/unicode-normalization@0.1",
+      "bom-ref": "cargo/unicode-normalization@0.1"
+    },
+    {
+      "type": "library",
+      "name": "caseless",
+      "version": "0.2",
+      "purl": "pkg:cargo/caseless@0.2",
+      "bom-ref": "cargo/caseless@0.2"
+    },
+    {
+      "type": "library",
+      "name": "serde",
+      "version": "1",
+      "purl": "pkg:cargo/serde@1",
+      "bom-ref": "cargo/serde@1"
+    },
+    {
+      "type": "library",
+      "name": "unicode-segmentation",
+      "version": "1",
+      "purl": "pkg:cargo/unicode-segmentation@1",
+      "bom-ref": "cargo/unicode-segmentation@1"
+    },
+    {
+      "type": "library",
+      "name": "rocksdb",
+      "version": "0.25",
+      "purl": "pkg:cargo/rocksdb@0.25",
+      "bom-ref": "cargo/rocksdb@0.25"
+    },
+    {
+      "type": "library",
+      "name": "fst",
+      "version": "0.3",
+      "purl": "pkg:cargo/fst@0.3",
+      "bom-ref": "cargo/fst@0.3"
+    },
+    {
+      "type": "library",
+      "name": "fst-levenshtein",
+      "version": "0.3",
+      "purl": "pkg:cargo/fst-levenshtein@0.3",
+      "bom-ref": "cargo/fst-levenshtein@0.3"
+    },
+    {
+      "type": "library",
+      "name": "fst-regex",
+      "version": "0.3",
+      "purl": "pkg:cargo/fst-regex@0.3",
+      "bom-ref": "cargo/fst-regex@0.3"
+    },
+    {
+      "type": "library",
+      "name": "regex-syntax",
+      "version": "0.8",
+      "purl": "pkg:cargo/regex-syntax@0.8",
+      "bom-ref": "cargo/regex-syntax@0.8"
+    },
+    {
+      "type": "library",
+      "name": "twox-hash",
+      "version": "2",
+      "purl": "pkg:cargo/twox-hash@2",
+      "bom-ref": "cargo/twox-hash@2"
+    },
+    {
+      "type": "library",
+      "name": "hashbrown",
+      "version": "0.17",
+      "purl": "pkg:cargo/hashbrown@0.17",
+      "bom-ref": "cargo/hashbrown@0.17"
+    },
+    {
+      "type": "library",
+      "name": "indexmap",
+      "version": "2",
+      "purl": "pkg:cargo/indexmap@2",
+      "bom-ref": "cargo/indexmap@2"
+    },
+    {
+      "type": "library",
+      "name": "linked_hash_set",
+      "version": "0.1",
+      "purl": "pkg:cargo/linked_hash_set@0.1",
+      "bom-ref": "cargo/linked_hash_set@0.1"
+    },
+    {
+      "type": "library",
+      "name": "whatlang",
+      "version": "0.18",
+      "purl": "pkg:cargo/whatlang@0.18",
+      "bom-ref": "cargo/whatlang@0.18"
+    },
+    {
+      "type": "library",
+      "name": "regex",
+      "version": "1",
+      "purl": "pkg:cargo/regex@1",
+      "bom-ref": "cargo/regex@1"
+    },
+    {
+      "type": "library",
+      "name": "jieba-rs",
+      "version": "0.11",
+      "purl": "pkg:cargo/jieba-rs@0.11",
+      "bom-ref": "cargo/jieba-rs@0.11"
+    },
+    {
+      "type": "library",
+      "name": "lindera-core",
+      "version": "0.31",
+      "purl": "pkg:cargo/lindera-core@0.31",
+      "bom-ref": "cargo/lindera-core@0.31"
+    },
+    {
+      "type": "library",
+      "name": "lindera-dictionary",
+      "version": "0.31",
+      "purl": "pkg:cargo/lindera-dictionary@0.31",
+      "bom-ref": "cargo/lindera-dictionary@0.31"
+    },
+    {
+      "type": "library",
+      "name": "lindera-tokenizer",
+      "version": "0.31",
+      "purl": "pkg:cargo/lindera-tokenizer@0.31",
+      "bom-ref": "cargo/lindera-tokenizer@0.31"
+    },
+    {
+      "type": "library",
+      "name": "snowball",
+      "version": "0.1",
+      "purl": "pkg:cargo/snowball@0.1",
+      "bom-ref": "cargo/snowball@0.1"
+    },
+    {
+      "type": "library",
+      "name": "config",
+      "version": "0.15",
+      "purl": "pkg:cargo/config@0.15",
+      "bom-ref": "cargo/config@0.15"
+    },
+    {
+      "type": "library",
+      "name": "tracing-subscriber",
+      "version": "0.3",
+      "purl": "pkg:cargo/tracing-subscriber@0.3",
+      "bom-ref": "cargo/tracing-subscriber@0.3"
+    },
+    {
+      "type": "library",
+      "name": "sonic-core",
+      "version": "=0.4.2",
+      "purl": "pkg:cargo/sonic-core@=0.4.2",
+      "bom-ref": "cargo/sonic-core@=0.4.2"
+    },
+    {
+      "type": "library",
+      "name": "clap",
+      "version": "=4.6.7",
+      "purl": "pkg:cargo/clap@=4.6.7",
+      "bom-ref": "cargo/clap@=4.6.7"
+    },
+    {
+      "type": "library",
+      "name": "rand",
+      "version": "=0.10.3",
+      "purl": "pkg:cargo/rand@=0.10.3",
+      "bom-ref": "cargo/rand@=0.10.3"
+    },
+    {
+      "type": "library",
+      "name": "arrow-array",
+      "version": "=60.0.0",
+      "purl": "pkg:cargo/arrow-array@=60.0.0",
+      "bom-ref": "cargo/arrow-array@=60.0.0"
+    },
+    {
+      "type": "library",
+      "name": "bus",
+      "version": "=2.4.1",
+      "purl": "pkg:cargo/bus@=2.4.1",
+      "bom-ref": "cargo/bus@=2.4.1"
+    },
+    {
+      "type": "library",
+      "name": "criterion",
+      "version": "=0.8.2",
+      "purl": "pkg:cargo/criterion@=0.8.2",
+      "bom-ref": "cargo/criterion@=0.8.2"
+    },
+    {
+      "type": "library",
+      "name": "hf-hub",
+      "version": "=0.5.0",
+      "purl": "pkg:cargo/hf-hub@=0.5.0",
+      "bom-ref": "cargo/hf-hub@=0.5.0"
+    },
+    {
+      "type": "library",
+      "name": "parquet",
+      "version": "=60.0.0",
+      "purl": "pkg:cargo/parquet@=60.0.0",
+      "bom-ref": "cargo/parquet@=60.0.0"
+    },
+    {
+      "type": "library",
+      "name": "serde_json",
+      "version": "=1.0.151",
+      "purl": "pkg:cargo/serde_json@=1.0.151",
+      "bom-ref": "cargo/serde_json@=1.0.151"
+    },
+    {
+      "type": "library",
+      "name": "sonic_client",
+      "version": "=0.6.0",
+      "purl": "pkg:cargo/sonic_client@=0.6.0",
+      "bom-ref": "cargo/sonic_client@=0.6.0"
+    },
+    {
+      "type": "library",
+      "name": "nix",
+      "version": "=0.31.3",
+      "purl": "pkg:cargo/nix@=0.31.3",
+      "bom-ref": "cargo/nix@=0.31.3"
+    },
+    {
+      "type": "library",
+      "name": "tikv-jemallocator",
+      "version": "=0.7.0",
+      "purl": "pkg:cargo/tikv-jemallocator@=0.7.0",
+      "bom-ref": "cargo/tikv-jemallocator@=0.7.0"
+    },
+    {
+      "type": "library",
+      "name": "windows-sys",
+      "version": "=0.61.2",
+      "purl": "pkg:cargo/windows-sys@=0.61.2",
+      "bom-ref": "cargo/windows-sys@=0.61.2"
+    }
+  ]
+}
